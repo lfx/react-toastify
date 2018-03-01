@@ -17,7 +17,7 @@ const eventManager = {
     if (!this.eventList.has(event)) {
       /* eslint no-console: 0 */
       console.warn(
-        `<${event}> Event is not registered. Did you forgot to bind the event ?`
+        `<${event}> Event is not registered. Did you forget to bind the event ?`
       );
       return false;
     }
